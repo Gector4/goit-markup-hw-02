@@ -1,0 +1,212 @@
+:root {
+        --accent-color:#2196F3;
+}
+.list {
+    list-style: none;
+  }
+  .link {
+    text-decoration: none;
+  }
+
+  /* =======Body====== */
+
+  .body{
+    font-family: 'Roboto',sans-serif;  
+    color: #212121;
+  }
+
+  /* =======HEADER====== */
+  .menu-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+  }
+  .logo{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+  }
+  .menu-link:hover,
+  .menu-link:focus {
+   color: var(--accent-color);
+  }
+  .page-header-mailto,
+  .page-header-phone-number
+  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .page-header-mailto:hover,
+  .page-header-mailto:focus{
+    color: var(--accent-color);
+  }
+  .page-header-phone-number:hover,
+  .page-header-phone-number:focus{
+    color: var(--accent-color);
+  }
+
+  /* ======= /HEADER====== */
+
+  /* ======Hero====== */
+
+  .buttons-porfolio{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;   
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .buttons-porfolio-all:hover,
+  .buttons-porfolio-all:focus,
+  .buttons-porfolio-website:hover,
+  .buttons-porfolio-website:focus,
+  .buttons-porfolio-applications:hover,
+  .buttons-porfolio-applications:focus,
+  .buttons-porfolio-design:hover,
+  .buttons-porfolio-design:focus,
+  .buttons-porfolio-marketing:hover,
+  .buttons-porfolio-marketing:focus
+  {
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+  }
+  
+  .developments-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;  
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
+.developments-offer{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: #757575;
+}
+  
+  .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+     /* color: #FFFFFF;  */
+  }
+  .order-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.36;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+     color: #FFFFFF; 
+  }
+  .order-btn:hover,
+  .order-btn:focus{
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+
+  /* ====== /Hero====== */
+
+  /*======Peculiarities======*/
+  .paragraph-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+   
+  }
+  .paragraph-description{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+
+  /*======/Peculiarities======*/
+
+  /* ======Services====== */
+
+.service-list{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+/* ======/Services====== */
+
+
+/* ======Team====== */
+
+.our-team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.employees{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.employee-responsibilities{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+
+/* ======/Team====== */
+
+/*======Address-footer====== */
+
+.list-address{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
+}
+.list-address-map:hover,
+.list-address-map:focus{
+color: var(--accent-color);
+}
+.list-address-mailto:hover,
+.list-address-mailto:focus{
+color: var(--accent-color); 
+}
+.list-address-tel:hover,
+.list-address-tel:focus{
+color: var(--accent-color);   
+}
+
+/*======/Address-footer====== */
